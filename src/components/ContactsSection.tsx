@@ -85,7 +85,7 @@ const ContactsSection = () => {
             </form>
           </CardContent>
         </Card>
-        <div className="grid md:grid-cols-3 gap-6 mt-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
           <Card>
             <CardContent className="pt-6 text-center">
               <Icon name="Phone" className="mx-auto mb-3 text-primary" size={32} />
@@ -101,6 +101,15 @@ const ContactsSection = () => {
               <div className="font-semibold mb-2">Email</div>
               <a href="mailto:info@moskcompany.ru" className="text-muted-foreground hover:text-primary transition-colors">
                 info@moskcompany.ru
+              </a>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="pt-6 text-center">
+              <Icon name="Send" className="mx-auto mb-3 text-primary" size={32} />
+              <div className="font-semibold mb-2">Telegram</div>
+              <a href="https://t.me/moskcompany" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                @moskcompany
               </a>
             </CardContent>
           </Card>

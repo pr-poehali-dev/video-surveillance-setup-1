@@ -6,6 +6,7 @@ import PortfolioSection from '@/components/PortfolioSection';
 import AboutSection from '@/components/AboutSection';
 import ContactsSection from '@/components/ContactsSection';
 import Footer from '@/components/Footer';
+import TelegramWidget from '@/components/TelegramWidget';
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <AboutSection />
       <ContactsSection />
       <Footer />
+      <TelegramWidget />
     </div>
   );
 };

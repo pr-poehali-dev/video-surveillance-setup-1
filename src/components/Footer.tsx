@@ -45,6 +45,11 @@ const Footer = () => {
                   info@moskcompany.ru
                 </a>
               </li>
+              <li>
+                <a href="https://t.me/moskcompany" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  @moskcompany
+                </a>
+              </li>
               <li>Москва, ул. Примерная, 1</li>
             </ul>
           </div>
