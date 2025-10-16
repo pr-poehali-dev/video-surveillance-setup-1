@@ -105,7 +105,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Icon name="Shield" className="text-primary" size={32} />
-            <span className="text-2xl font-bold gradient-text">SecureVision</span>
+            <span className="text-2xl font-bold gradient-text">MOSKCOMPANY</span>
           </div>
           <div className="hidden md:flex gap-6">
             <a href="#services" className="hover:text-primary transition-colors">Услуги</a>
@@ -280,7 +280,7 @@ const Index = () => {
               <Badge className="mb-4">О компании</Badge>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">Надежность и инновации</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                SecureVision — ведущий интегратор систем безопасности с 12-летним опытом работы. Мы специализируемся на проектировании и внедрении современных систем видеонаблюдения с использованием технологий искусственного интеллекта.
+                MOSKCOMPANY — ведущий интегратор систем безопасности с 12-летним опытом работы. Мы специализируемся на проектировании и внедрении современных систем видеонаблюдения с использованием технологий искусственного интеллекта.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
                 Наша команда сертифицированных специалистов гарантирует высокое качество работ на всех этапах реализации проекта — от проектирования до технической поддержки.
@@ -404,7 +404,7 @@ const Index = () => {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="Shield" className="text-primary" size={28} />
-                <span className="text-xl font-bold">SecureVision</span>
+                <span className="text-xl font-bold">MOSKCOMPANY</span>
               </div>
               <p className="text-sm text-secondary-foreground/80">
                 Профессиональные системы видеонаблюдения для вашей безопасности
@@ -438,7 +438,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-secondary-foreground/20 pt-8 text-center text-sm text-secondary-foreground/60">
-            © 2024 SecureVision. Все права защищены.
+            © 2024 MOSKCOMPANY. Все права защищены.
           </div>
         </div>
       </footer>
