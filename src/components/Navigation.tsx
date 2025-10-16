@@ -20,9 +20,11 @@ const Navigation = () => {
           <a href="#contacts" className="hover:text-primary transition-colors">Контакты</a>
         </div>
         <div className="flex items-center gap-2">
-          <Button className="hidden md:flex">
-            <Icon name="Phone" size={16} className="mr-2" />
-            Позвонить
+          <Button className="hidden md:flex" asChild>
+            <a href="tel:+79003004545">
+              <Icon name="Phone" size={16} className="mr-2" />
+              8 (900) 300-45-45
+            </a>
           </Button>
           <Button
             variant="ghost"
@@ -72,9 +74,11 @@ const Navigation = () => {
             >
               Контакты
             </a>
-            <Button className="w-full">
-              <Icon name="Phone" size={16} className="mr-2" />
-              Позвонить
+            <Button className="w-full" asChild>
+              <a href="tel:+79003004545">
+                <Icon name="Phone" size={16} className="mr-2" />
+                8 (900) 300-45-45
+              </a>
             </Button>
           </div>
         </div>

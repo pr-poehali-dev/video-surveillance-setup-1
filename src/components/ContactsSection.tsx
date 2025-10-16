@@ -90,14 +90,18 @@ const ContactsSection = () => {
             <CardContent className="pt-6 text-center">
               <Icon name="Phone" className="mx-auto mb-3 text-primary" size={32} />
               <div className="font-semibold mb-2">Телефон</div>
-              <div className="text-muted-foreground">+7 (495) 123-45-67</div>
+              <a href="tel:+79003004545" className="text-muted-foreground hover:text-primary transition-colors">
+                8 (900) 300-45-45
+              </a>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="pt-6 text-center">
               <Icon name="Mail" className="mx-auto mb-3 text-primary" size={32} />
               <div className="font-semibold mb-2">Email</div>
-              <div className="text-muted-foreground">info@securevision.ru</div>
+              <a href="mailto:info@moskcompany.ru" className="text-muted-foreground hover:text-primary transition-colors">
+                info@moskcompany.ru
+              </a>
             </CardContent>
           </Card>
           <Card>

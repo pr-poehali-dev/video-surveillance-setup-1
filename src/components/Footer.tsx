@@ -35,8 +35,16 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-3">Контакты</h3>
             <ul className="space-y-2 text-sm text-secondary-foreground/80">
-              <li>+7 (495) 123-45-67</li>
-              <li>info@securevision.ru</li>
+              <li>
+                <a href="tel:+79003004545" className="hover:text-primary transition-colors">
+                  8 (900) 300-45-45
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@moskcompany.ru" className="hover:text-primary transition-colors">
+                  info@moskcompany.ru
+                </a>
+              </li>
               <li>Москва, ул. Примерная, 1</li>
             </ul>
           </div>
