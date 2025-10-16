@@ -9,25 +9,45 @@ const EquipmentSection = () => {
     {
       category: 'IP-камеры',
       items: [
-        { name: 'Hikvision DS-2CD2043G2', resolution: '4MP', price: 'от 8 500 ₽' },
-        { name: 'Dahua IPC-HFW2431S', resolution: '4MP', price: 'от 7 200 ₽' },
-        { name: 'Uniview IPC2124SR3', resolution: '4MP', price: 'от 6 900 ₽' }
+        { name: 'DSSL DS-2CD2043G2', resolution: '4MP, IR 30м', price: 'от 8 500 ₽' },
+        { name: 'DSSL DS-H216Q', resolution: '2MP, IR 20м', price: 'от 6 200 ₽' },
+        { name: 'DSSL DS-H254Z', resolution: '5MP, Zoom 4x', price: 'от 12 900 ₽' },
+        { name: 'DSSL DS-I252W', resolution: '5MP, Wi-Fi', price: 'от 9 800 ₽' },
+        { name: 'DSSL DS-I123', resolution: '2MP, Compact', price: 'от 5 400 ₽' },
+        { name: 'DSSL DS-H456Q', resolution: '4MP, IR 40м', price: 'от 10 200 ₽' }
       ]
     },
     {
       category: 'Видеорегистраторы',
       items: [
-        { name: 'Hikvision DS-7608NI-K2', resolution: '8 каналов', price: 'от 15 000 ₽' },
-        { name: 'Dahua NVR4108HS', resolution: '8 каналов', price: 'от 13 500 ₽' },
-        { name: 'Uniview NVR301-08S2', resolution: '8 каналов', price: 'от 12 800 ₽' }
+        { name: 'DSSL NVR-04M', resolution: '4 канала, 4K', price: 'от 12 000 ₽' },
+        { name: 'DSSL NVR-08M', resolution: '8 каналов, 4K', price: 'от 18 500 ₽' },
+        { name: 'DSSL NVR-16M', resolution: '16 каналов, 4K', price: 'от 28 000 ₽' },
+        { name: 'DSSL DVR-08H', resolution: '8 каналов, AHD', price: 'от 14 300 ₽' },
+        { name: 'DSSL NVR-32M', resolution: '32 канала, 4K', price: 'от 42 000 ₽' },
+        { name: 'DSSL NVR-64M', resolution: '64 канала, 4K', price: 'от 68 000 ₽' }
       ]
     },
     {
-      category: 'Аналитика',
+      category: 'Серверное ПО',
       items: [
-        { name: 'Распознавание лиц', resolution: 'AI модуль', price: 'от 25 000 ₽' },
-        { name: 'Подсчет посетителей', resolution: 'AI модуль', price: 'от 20 000 ₽' },
-        { name: 'Распознавание номеров', resolution: 'AI модуль', price: 'от 30 000 ₽' }
+        { name: 'DSSL Trassir Pro', resolution: '16 каналов', price: 'от 35 000 ₽' },
+        { name: 'DSSL NetStation', resolution: 'До 64 камер', price: 'от 45 000 ₽' },
+        { name: 'DSSL VideoOS', resolution: 'До 128 камер', price: 'от 85 000 ₽' },
+        { name: 'DSSL Analytics AI', resolution: 'Модуль аналитики', price: 'от 28 000 ₽' },
+        { name: 'DSSL Face Recognition', resolution: 'Распознавание лиц', price: 'от 52 000 ₽' },
+        { name: 'DSSL LPR Module', resolution: 'Распознавание номеров', price: 'от 38 000 ₽' }
+      ]
+    },
+    {
+      category: 'Аксессуары',
+      items: [
+        { name: 'DSSL PoE Switch 8p', resolution: '8 портов PoE', price: 'от 7 800 ₽' },
+        { name: 'DSSL PoE Switch 16p', resolution: '16 портов PoE', price: 'от 14 500 ₽' },
+        { name: 'DSSL UPS-1000', resolution: 'ИБП 1000VA', price: 'от 9 200 ₽' },
+        { name: 'DSSL HDD 4TB', resolution: 'Жесткий диск 4TB', price: 'от 8 900 ₽' },
+        { name: 'DSSL Bracket Kit', resolution: 'Кронштейны', price: 'от 1 200 ₽' },
+        { name: 'DSSL Cable UTP 305m', resolution: 'Кабель витая пара', price: 'от 4 500 ₽' }
       ]
     }
   ];
@@ -43,7 +63,7 @@ const EquipmentSection = () => {
           </p>
         </div>
         <Tabs defaultValue="IP-камеры" className="w-full">
-          <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-3 mb-8">
+          <TabsList className="grid w-full max-w-4xl mx-auto grid-cols-2 md:grid-cols-4 mb-8">
             {equipment.map((cat) => (
               <TabsTrigger key={cat.category} value={cat.category}>
                 {cat.category}
